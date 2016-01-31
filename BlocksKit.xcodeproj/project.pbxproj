@@ -20,9 +20,6 @@
 		43CE09E419866C2300F91137 /* QLPreviewControllerBlocksKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CE09E319866C2300F91137 /* QLPreviewControllerBlocksKitTest.m */; };
 		43CE09E519866CC200F91137 /* BlocksKit+QuickLook.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43CE09E21986618700F91137 /* BlocksKit+QuickLook.h */; };
 		43CE09E919866D8400F91137 /* QLPreviewController+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43CE09DF198660EE00F91137 /* QLPreviewController+BlocksKit.h */; };
-		5E63646D1BFE464D008DFBE8 /* NSObject+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E63646B1BFE464D008DFBE8 /* NSObject+BlocksKit.h */; };
-		5E63646E1BFE464D008DFBE8 /* NSObject+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E63646C1BFE464D008DFBE8 /* NSObject+BlocksKit.m */; };
-		5E63646F1BFE464D008DFBE8 /* NSObject+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E63646C1BFE464D008DFBE8 /* NSObject+BlocksKit.m */; };
 		5E05DF241C5D16A500A27F15 /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB098F184DC7AF00F37EEE /* NSArray+BlocksKit.m */; };
 		5E05DF251C5D16A500A27F15 /* NSDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0991184DC7AF00F37EEE /* NSDictionary+BlocksKit.m */; };
 		5E05DF261C5D16A500A27F15 /* NSIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFB0993184DC7AF00F37EEE /* NSIndexSet+BlocksKit.m */; };
@@ -101,6 +98,12 @@
 		5E05DF721C5D18EF00A27F15 /* BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFB08B6184DC23000F37EEE /* BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E05DF731C5D18F900A27F15 /* NSCache+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFB09F3184DC7E400F37EEE /* NSCache+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E05DF741C5D18F900A27F15 /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFB09F5184DC7E400F37EEE /* NSURLConnection+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E36DA161C5E64A5004FD846 /* NSObject+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E63646B1BFE464D008DFBE8 /* NSObject+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E36DA171C5E64A6004FD846 /* NSObject+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E63646B1BFE464D008DFBE8 /* NSObject+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E36DA181C5E64A7004FD846 /* NSObject+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E63646B1BFE464D008DFBE8 /* NSObject+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E63646D1BFE464D008DFBE8 /* NSObject+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E63646B1BFE464D008DFBE8 /* NSObject+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E63646E1BFE464D008DFBE8 /* NSObject+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E63646C1BFE464D008DFBE8 /* NSObject+BlocksKit.m */; };
+		5E63646F1BFE464D008DFBE8 /* NSObject+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E63646C1BFE464D008DFBE8 /* NSObject+BlocksKit.m */; };
 		5E77D63D1C5D154900396955 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E77D6361C5D154900396955 /* BlocksKit.framework */; };
 		5E77D63E1C5D154900396955 /* BlocksKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E77D6361C5D154900396955 /* BlocksKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EAA612A1C5D19FF005AD556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAA61291C5D19FF005AD556 /* Foundation.framework */; };
@@ -1082,6 +1085,7 @@
 				5E05DF5D1C5D189B00A27F15 /* A2BlockInvocation.h in Headers */,
 				5E05DF5F1C5D189B00A27F15 /* NSObject+A2BlockDelegate.h in Headers */,
 				5E05DF601C5D189B00A27F15 /* NSObject+A2DynamicDelegate.h in Headers */,
+				5E36DA161C5E64A5004FD846 /* NSObject+BlocksKit.h in Headers */,
 				5E05DF511C5D16E400A27F15 /* NSMutableArray+BlocksKit.h in Headers */,
 				5E05DF631C5D18B400A27F15 /* QLPreviewController+BlocksKit.h in Headers */,
 				5E05DF5A1C5D16E400A27F15 /* NSOrderedSet+BlocksKit.h in Headers */,
@@ -1122,6 +1126,7 @@
 				5EAA61471C5E4DE3005AD556 /* NSArray+BlocksKit.h in Headers */,
 				5EAA61451C5E4DA1005AD556 /* BlocksKit.h in Headers */,
 				5EAA61691C5E4E07005AD556 /* A2BlockInvocation.h in Headers */,
+				5E36DA171C5E64A6004FD846 /* NSObject+BlocksKit.h in Headers */,
 				5EAA616B1C5E4E07005AD556 /* NSObject+A2BlockDelegate.h in Headers */,
 				5EAA616C1C5E4E07005AD556 /* NSObject+A2DynamicDelegate.h in Headers */,
 				5EAA61571C5E4DE4005AD556 /* NSTimer+BlocksKit.h in Headers */,
@@ -1161,6 +1166,7 @@
 				5EAA615B1C5E4DE4005AD556 /* NSInvocation+BlocksKit.h in Headers */,
 				5EAA61631C5E4DE4005AD556 /* NSObject+BKAssociatedObjects.h in Headers */,
 				5EAA61731C5E4E15005AD556 /* NSCache+BlocksKit.h in Headers */,
+				5E36DA181C5E64A7004FD846 /* NSObject+BlocksKit.h in Headers */,
 				5EAA615E1C5E4DE4005AD556 /* NSMutableArray+BlocksKit.h in Headers */,
 				5EAA615F1C5E4DE4005AD556 /* NSMutableDictionary+BlocksKit.h in Headers */,
 				5EAA61621C5E4DE4005AD556 /* NSMutableSet+BlocksKit.h in Headers */,

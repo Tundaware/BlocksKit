@@ -41,4 +41,5 @@
 #import <BlocksKit/NSOrderedSet+BlocksKit.h>
 #import <BlocksKit/NSSet+BlocksKit.h>
 #import <BlocksKit/NSTimer+BlocksKit.h>
+#import <BlocksKit/NSObject+BlocksKit.h>
 #import <BlocksKit/BKMacros.h>
